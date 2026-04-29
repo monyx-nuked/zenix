@@ -1,0 +1,10 @@
+# -> Nix
+# Ignore builds from `nix-build` or `nix build`
+result
+result-*
+
+# Ignore automatically generated direnv folder
+.direnv
+
+# Ignore NixOS interactive test driver history
+**/.nixos-test-history
