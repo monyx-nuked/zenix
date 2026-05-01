@@ -39,6 +39,12 @@
             bat
             eza
             convco
+            statix
+            deadnix
+            # Example usage of nom: nix build .#your-package |& nom
+            nix-output-monitor
+            nix-melt
+            nix-tree
           ];
         };
       };
