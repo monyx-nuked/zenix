@@ -11,7 +11,7 @@
           name = "default-devshell";
           motd = ''
             {202}>= Welcome to devshell!{reset}
-            {201}This was made with numtide/devshells
+            {203}This was made with numtide/devshells
             This thing was made for this project{reset}
           '';
           packages = with pkgs; [
