@@ -15,7 +15,7 @@
             This thing was made for this project{reset}
           '';
           packages = with pkgs; [
-            hello
+            nh
           ];
         };
       };
