@@ -47,6 +47,8 @@
             nix-tree
             # Fallback editor
             helix
+            # Git-VCS
+            git
           ];
         };
       };
