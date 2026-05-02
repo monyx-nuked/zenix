@@ -45,6 +45,8 @@
             nix-output-monitor
             nix-melt
             nix-tree
+            # Fallback editor
+            helix
           ];
         };
       };
