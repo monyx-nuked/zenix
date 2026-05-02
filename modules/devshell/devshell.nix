@@ -23,6 +23,11 @@
             name = "convcommit";
             command = "convco commit $@";
           }
+          {
+            help = "alias for j";
+            name = "j";
+            command = "just $@";
+          }
         ];
         devshell = {
           name = "default-devshell";
@@ -41,6 +46,7 @@
             convco
             statix
             deadnix
+            just
             # Example usage of nom: nix build .#your-package |& nom
             nix-output-monitor
             nix-melt
