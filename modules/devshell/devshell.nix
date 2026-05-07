@@ -30,7 +30,7 @@
           }
         ];
         devshell = {
-          name = "default-devshell";
+          name = "zenix-shell";
           motd = ''
             {202}
             >= Welcome to devshell!
