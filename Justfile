@@ -2,4 +2,4 @@ default:
   just --list
 
 nd:
-  nix develop .
+  @nix develop .
